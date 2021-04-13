@@ -280,10 +280,9 @@ padding-left: 10px;
 
 }
 ::placeholder {
-font-size: 10px;
-padding-left: 10px;
-font-style: italic;
+font-size: 15px;
 }
+
 .form-footer input[type="button"] {
 border: none;
 background:#232323;
