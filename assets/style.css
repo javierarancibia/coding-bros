@@ -213,11 +213,11 @@ h2 {
     background: #111;
     color: #ddd;
   }
-  h1 {
+  /* h1 {
     font-size: 48px;
     font-weight: 300;
     padding: 15px 0;
-  }
+  } */
   .intro p {
     opacity: 0.5;
     font-size: 12px;
