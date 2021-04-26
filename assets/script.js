@@ -7,3 +7,11 @@ function nosotros() {
     $('#we').fadeIn(8500).css('left' ,'0');
 }
 
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+
