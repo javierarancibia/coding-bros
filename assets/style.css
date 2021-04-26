@@ -30,6 +30,29 @@ h3{
   font-weight: 500;
 }
 
+.texto-trabajos {
+  font-family: 'Mulish', sans-serif;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #6C6CFD !important;
+}
+
+.card-title {
+  color: #6C6CFD;
+  font-size:1.5rem
+}
+
+.card-text {
+  font-family: 'Mulish', sans-serif;
+}
+
+.precios {
+  text-align: center;
+  color: #6C6CFD;
+  font-size: 2rem
+}
+
 .content {
     color: #f1f1f1;
     width: 100%;
@@ -376,5 +399,7 @@ height: 100%;
 
 
 
+
+/* PRECIOS */
 
 
