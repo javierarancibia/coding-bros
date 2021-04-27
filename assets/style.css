@@ -50,7 +50,9 @@ h3{
 .precios {
   text-align: center;
   color: #6C6CFD;
-  font-size: 2rem
+  font-size: 2rem;
+  display: inline; 
+  margin-left: 2rem;
 }
 
 .content {
