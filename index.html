@@ -28,286 +28,314 @@
 
     <title>The Coding Bros</title>
 </head>
-<body onload = "openNav();">
+<body>
         <div class="content container">
-            <h1>The Coding Bros</h1>
         </div>
-
-        <div id="montaje"></div>
-
-        <div id="mySidenav" class="sidenav">
-            <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
-            <a href="#" style="cursor: pointer;" class="text-white">Inicio</a>
-            <a id="priceLink" style="cursor: pointer;" class="text-white">Precios</a>
-            <a id="portafolioLink" style="cursor: pointer;" class="text-white">Portafolio</a>
-            <a id="portafolioLink" style="cursor: pointer;" class="text-white">Somos</a>
-            <a id="contactLink" style="cursor: pointer;" class="text-white">Contacto</a>
-            <img src="assets/img/transprobot.gif" width="90%" alt="Robot" style="margin-top:25rem">
-        </div>
-        <div class="container">
-            <!-- <span style="font-size:30px;cursor:pointer; color:#6C6CFD; margin-left: 2rem; margin-top:1rem;" onclick="openNav()"><i class="fas fa-code fa-2x"></i></span> -->
-        </div>
-
-
-        <div class="container" style="margin-top: 3rem;" id="we">
-            <div>
-                <div class="row">
-                    <div class="col">
-                        <img src="./assets/img/cel.svg" alt="Bot 1" width="100%" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
-                    </div>
-                    <div class="title col" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
-                        <h2>
-                            DIGITALIZA TU  EMPRENDIMIENTO
-                        </h2>
-                        <h3 class="h2">
-                            APROVECHA NUESTRAS REBAJAS POR POCOS DIAS!
-                        </h3>
-                        <p id="demo"></p>
-                        <ul style="list-style: none; margin-top: 2rem; text-align: left;color: #6C6CFD; font-size:2rem;">
-                            <li>LANDING PAGES: $89.990</li>
-                            <li>E-COMMERCE: $350.000</li>
-                        </ul>
-                        <p class="mt-5">Somos una empresa joven de la V Region y nos gusta mucho la pichula Somos una empresa joven de la V Region y nos gusta mucho la pichula Somos una empresa joven de la V Region y nos gusta mucho la pichula Somos una empresa joven de la V Region y nos gusta mucho la pichula</p>
-                        <button type="button" class="btn btn-primary btn-lg mt-5 px-5 py-3 rounded-pill mx-3" onclick="precios()">Precios</button>
-                        <button type="button" class="btn btn-outline-primary btn-lg mt-5 px-5 py-3 rounded-pill mx-3" onclick="contacto()">Escribenos</button>
-                    </div> 
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container" id="priceDiv">
-            <h2 class="text-center" style="margin-top:15rem; margin-bottom:2rem">Nuestros Precios </h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4 ">
-                <div class="col" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
-                    <div class="card h-100" style="border-radius: 20px;">
-                        <img src="assets/img/landing.svg" class="card-img-top" alt="..." height="300rem">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Landing Page</h5>
-                            <ul class="card-text">
-                                <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
-                                <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer text-center">
-                            <h3 class="precios" style="text-decoration: line-through;">$109.990</h3><h3 class="precios">$89.990</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
-                    <div class="card h-100" style="border-radius: 20px;">
-                        <img src="assets/img/commerce.svg" class="card-img-top" alt="..." height="300rem">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">E-commerce</h5>
-                            <ul class="card-text">
-                                <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
-                                <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer text-center">
-                            <h3 class="precios" style="text-decoration: line-through;">$499.000</h3><h3 class="precios">$350.000</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
-                    <div class="card h-100" style="border-radius: 20px;">
-                        <img src="assets/img/webapp.svg" class="card-img-top" alt="..." height="300rem">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Aplicaciones Web</h5>
-                            <ul class="card-text">
-                                <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
-                                <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer text-center">
-                            <button type="button" class="btn btn-primary btn-lg px-5  rounded-pill mx-3" onclick="contacto()">Hablemos</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-5">
-                <div class="col" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
-                    <div class="card h-100" style="border-radius: 20px;">
-                        <img src="assets/img/google.svg" class="card-img-top" alt="..." height="300rem">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Instalacion de Google Analytics y Google Adwords+</h5>
-                            <ul class="card-text">
-                                <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
-                                <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer text-center">
-                            <button type="button" class="btn btn-primary btn-lg px-5  rounded-pill mx-3" onclick="contacto()">Hablemos</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
-                    <div class="card h-100" style="border-radius: 20px;">
-                        <img src="assets/img/internet.svg" class="card-img-top" alt="..." height="300rem">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Servicios de Hosting y Compra de Dominio</h5>
-                            <ul class="card-text">
-                                <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
-                                <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer text-center">
-                            <h3 class="precios display-block">Instalacion por $10.000</h3>
-                            <h3 class="precios">Mensualidad de $1.990</h3>
-                        </div>
-                    </div>
-                </div>
-               
-            </div>
-        </div>       
-        
+        <div id="myNav" class="overlay d-block d-sm-none">
             
-
-
-
-
-
-
-
-
-
-        <h2 class="text-center" id="portafolio" style="margin-top:15rem; margin-bottom:5rem">Algunos de Nuestros Trabajos</h2>
-        <div class="container mt-5">
-            <div class="row" style="margin-top:6rem">
-                <div class="col">
-                <img src="assets/img/house.svg" alt="Commercial City" style="width:80%" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
-                </div>
-                <div class="col" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
-                    <h2>Commercial City</h2>
-                    <h3 class="text-secondary">Aplicacion Web de Propiedades</h3>
-                    <p class="texto-trabajos">Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
-                    Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
-                    Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
-                    Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip</p>
-                    <i class="fas fa-external-link-alt fa-2x" style="color:#6C6CFD"></i>
-                </div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNavCell()">&times;</a>
+            
+            <div class="overlay-content">
+                <a id="priceLinkCell" style="cursor: pointer;" class="text-white">Precios</a>
+                <a id="portafolioLinkCell" style="cursor: pointer;" class="text-white">Portafolio</a>
+                <a id="portafolioLinkCell" style="cursor: pointer;" class="text-white">Somos</a>
+                <a id="contactLinkCell" style="cursor: pointer;" class="text-white">Contacto</a>
             </div>
-            <div class="row" style="margin-top:6rem" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
-                <div class="col">
-                    <h2>Kopaitic y Asociados</h2>
-                    <h3 class="text-secondary">Aplicacion Web de Propiedades</h3>
-                    <p class="texto-trabajos">Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
-                    Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
-                    Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
-                    Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip</p>
-                    <i class="fas fa-external-link-alt fa-2x" style="color:#6C6CFD"></i>
-                </div>
-                <div class="col">
-                    <img src="assets/img/lawyer.svg" alt="Commercial City" style="width:80%" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
-                </div>
-            </div>
-            <div class="row" style="margin-top:6rem" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
-                <div class="col">
-                <img src="assets/img/bitcoins.svg" alt="Converso de Bitcoins" style="width:80%" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
-                </div>
-                <div class="col">
-                    <h2>Conversor de Bitcoins</h2>
-                    <h3 class="text-secondary">Aplicacion Web de Propiedades</h3>
-                    <p class="texto-trabajos">Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
-                    Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
-                    Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
-                    Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip</p>
-                    <i class="fas fa-external-link-alt fa-2x" style="color:#6C6CFD"></i>
+            
+        </div>
+        <span onclick="openNavCell()" style="cursor: pointer;color: #6C6CFD;"><i class="fas fa-chevron-circle-down fa-3x d-block d-sm-none mt-5" style="margin-left: 1rem;"></i></span>
+        
+            <h1 class="container">The Coding Bros</h1>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-2 d-none d-sm-none d-lg-block">
+
+            
+            
+            <div class="sidenav">
+                <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+                <a href="#" style="cursor: pointer;" class="text-white">Inicio</a>
+                <a id="priceLink" style="cursor: pointer;" class="text-white">Precios</a>
+                <a id="portafolioLink" style="cursor: pointer;" class="text-white">Portafolio</a>
+                <a id="portafolioLink" style="cursor: pointer;" class="text-white">Somos</a>
+                <a id="contactLink" style="cursor: pointer;" class="text-white">Contacto</a>
+                <div class="container">
+                    <img src="assets/img/transprobot.gif" width="90%" alt="Robot" style="margin-top: 50%;">
                 </div>
             </div>
         </div>
+            
+    <div class="col-lg-10">
+        
 
-
-        
-        
-        <div class="form row container" id="form" style="margin-top: 2rem; margin-left: auto; margin-right: auto;">
-            <h2 class="text-center" style="margin-top:5rem; margin-bottom:5rem">Contactanos</h2>
-            <a><i class="fas fa-chevron-up fa-3x mb-3 text-white text-center" id="arrow3" style="cursor: pointer;"></i></a> 
-            <div class="col-6 container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true"><img src="assets/img/contactrobot.gif" alt="Escribenos" width="100%" height="auto"></div>
-            <form action="https://formspree.io/f/myylygqw" method="POST" class="col-4 container" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
-                <h3 class="mt-5" style="color: #6C6CFD">Formulario de contacto</h3>
-                <div class="form-group">
-                    <label for="email" class="text-white my-3">Correo Electronico</label>
-                    <input type="email" name="_replyto" class="form-control" id="email" placeholder="Ingresa tu correo">
-                </div>
-                <div class="form-group">
-                    <label class="text-white my-3">Numero de Telefono</label>
-                    <input type="number" name="phoneNumber" class="form-control" id="phoneNumber" placeholder="Ingresa tu numero de contacto">
-                </div>
-                
-                <div class="form-group">
-                    <label for="comment" class="text-white my-3">Comentarios:</label>
-                    <textarea class="form-control" id="comment" rows="3" name="message" placeholder="Ingresa tu consulta..."></textarea>
-                </div>
-                <button type="submit" class="btn btn-outline-primary btn-lg btn-block my-4 rounded-pill">Enviar formulario</button>
-            </form>
-        </div>
-        
-        <footer class="container-fluid py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-6 ">
-                           <div class="logo-part">
-                               <h1 style="font-size:2rem; color:white;">The coding bros</h1>
-                               <p>7637 Laurel Dr. King Of Prussia, PA 19406</p>
-                               <p>Use this tool as test data for an automated system or find your next pen</p>
-                            </div>
+            <div class="container px-5" style="margin-top: 3rem;">
+                <div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 mb-5">
+                            <img src="./assets/img/cel2.png" alt="Bot 1" width="100%" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
                         </div>
-                        <div class="col-md-6 px-4">
-                            <h6> About Company</h6>
-                            <p>But horizontal lines can only be a full pixel high.</p>
-                            <a href="#" class="btn-footer"> More Info </a><br>
-                            <a href="#" class="btn-footer"> Contact Us</a>
+                        <div class="title col-md-6 container" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
+                            <h2>
+                                DIGITALIZA TU  EMPRENDIMIENTO
+                            </h2>
+                            <h3 class="h2">
+                                APROVECHA NUESTRAS REBAJAS POR POCOS DIAS!
+                            </h3>
+                            <p id="demo"></p>
+                            <ul style="list-style: none; margin-top: 2rem; text-align: left;color: #6C6CFD; font-size:2rem;">
+                                <li>LANDING PAGES: $89.990</li>
+                                <li>E-COMMERCE: $350.000</li>
+                            </ul>
+                            <p class="mt-5">Somos una empresa joven de la V Region y nos gusta mucho la pichula Somos una empresa joven de la V Region y nos gusta mucho la pichula Somos una empresa joven de la V Region y nos gusta mucho la pichula Somos una empresa joven de la V Region y nos gusta mucho la pichula</p>
+                                    <button type="button" class="btn btn-primary mt-5 px-5 py-3 rounded-pill" onclick="precios()">Precios</button>
+                                    <button type="button" class="btn btn-outline-primary mt-5 px-5 py-3 rounded-pill" onclick="contacto()">Escribenos</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                     <div class="row">
-                         <div class="col-md-6 px-4">
-                             <h6> Help us</h6>
-                             <div class="row ">
-                                 <div class="col-md-6">
-                                     <ul>
-                                         <li> <a href="#"> Home</a> </li>
-                                         <li> <a href="#"> About</a> </li>
-                                         <li> <a href="#"> Service</a> </li>
-                                         <li> <a href="#"> Team</a> </li>
-                                         <li> <a href="#"> Help</a> </li>
-                                         <li> <a href="#"> Contact</a> </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6 px-4">
-                                 <ul>
-                                     <li> <a href="#"> Cab Faciliy</a> </li>
-                                     <li> <a href="#"> Fax</a> </li>
-                                     <li> <a href="#"> Terms</a> </li>
-                                    <li> <a href="#"> Policy</a> </li>
-                                    <li> <a href="#"> Refunds</a> </li>
-                                    <li> <a href="#"> Paypal</a> </li>
+            </div>
+
+
+            <div class="container" id="priceDiv">
+                <h2 class="text-center" style="margin-top:15rem; margin-bottom:2rem">Nuestros Precios </h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4 ">
+                    <div class="col" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
+                        <div class="card h-100" style="border-radius: 20px;">
+                            <img src="assets/img/landing.svg" class="card-img-top" alt="..." height="300rem">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Landing Page</h5>
+                                <ul class="card-text d-sm-none">
+                                    <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
                                 </ul>
                             </div>
-                           </div>
-                        </div>
-                        <div class="col-md-6 ">
-                            <h6> Newsletter</h6>
-                            <div class="social">
-                                <a href="#"><i class="fab fa-facebook fa-5x text-white mx-2"></i></i></a>
-                                <a href="#"><i class="fab fa-instagram fa-5x text-white mx-2 " aria-hidden="true"></i></a>
+                            <div class="card-footer text-center">
+                                <h3 class="precios" style="text-decoration: line-through;">$109.990</h3><h3 class="precios">$89.990</h3>
                             </div>
-                            <form class="form-footer my-3">
-                                <input type="text"  placeholder="search here...." name="search">
-                              <input type="button" value="Go" >
-                            </form>
-                            <p>That's technology limitation of LCD monitors</p>
+                        </div>
+                    </div>
+                    <div class="col" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
+                        <div class="card h-100" style="border-radius: 20px;">
+                            <img src="assets/img/commerce.svg" class="card-img-top" alt="..." height="300rem">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">E-commerce</h5>
+                                <ul class="card-text d-sm-none">
+                                    <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center">
+                                <h3 class="precios" style="text-decoration: line-through;">$499.000</h3><h3 class="precios">$350.000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
+                        <div class="card h-100" style="border-radius: 20px;">
+                            <img src="assets/img/webapp.svg" class="card-img-top" alt="..." height="300rem">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Aplicaciones Web</h5>
+                                <ul class="card-text d-sm-none">
+                                    <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center">
+                                <button type="button" class="btn btn-primary btn-lg px-5  rounded-pill mx-3" onclick="contacto()">Hablemos</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
+                        <div class="card h-100" style="border-radius: 20px;">
+                            <img src="assets/img/google.svg" class="card-img-top" alt="..." height="300rem">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Instalacion de Google Analytics y Google Adwords+</h5>
+                                <ul class="card-text d-sm-none">
+                                    <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center">
+                                <button type="button" class="btn btn-primary btn-lg px-5  rounded-pill mx-3" onclick="contacto()">Hablemos</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
+                        <div class="card h-100" style="border-radius: 20px;">
+                            <img src="assets/img/internet.svg" class="card-img-top" alt="..." height="300rem">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Servicios de Hosting y Compra de Dominio</h5>
+                                <ul class="card-text d-sm-none">
+                                    <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adip.</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center">
+                                <h3 class="precios display-block">Instalacion por $10.000</h3>
+                                <h3 class="precios">Mensualidad de $1.990</h3>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>       
+            
+                
+
+
+
+
+
+
+
+
+
+            <h2 class="text-center" id="portafolio" style="margin-top:15rem; margin-bottom:5rem">Algunos de Nuestros Trabajos</h2>
+            <div class="container mt-5">
+                <div class="row" style="margin-top:6rem">
+                    <div class="col-sm-12 col-md-6 mb-4">
+                    <img src="assets/img/house.svg" alt="Commercial City" style="width:80%" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
+                    </div>
+                    <div class="col" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
+                        <h2>Commercial City</h2>
+                        <h3 class="text-secondary">Aplicacion Web de Propiedades</h3>
+                        <p class="texto-trabajos d-none d-sm-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
+                        Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
+                        Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
+                        Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip</p>
+                        <i class="fas fa-external-link-alt fa-2x" style="color:#6C6CFD"></i>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:6rem" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
+                    <div class="col">
+                        <h2>Kopaitic y Asociados</h2>
+                        <h3 class="text-secondary">Aplicacion Web de Propiedades</h3>
+                        <p class="texto-trabajos d-none d-sm-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
+                        Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
+                        Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
+                        Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip</p>
+                        <i class="fas fa-external-link-alt fa-2x" style="color:#6C6CFD"></i>
+                    </div>
+                    <div class="col-sm-12 col-md-6 mb-4">
+                        <img src="assets/img/lawyer.svg" alt="Commercial City" style="width:80%" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
+                    </div>
+                </div>
+                <div class="row" style="margin-top:6rem; margin-bottom: 7rem;" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
+                    <div class="col-sm-12 col-md-6 mb-4">
+                    <img src="assets/img/bitcoins.svg" alt="Converso de Bitcoins" style="width:80%" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
+                    </div>
+                    <div class="col">
+                        <h2>Conversor de Bitcoins</h2>
+                        <h3 class="text-secondary">Aplicacion Web de Propiedades</h3>
+                        <p class="texto-trabajos d-none d-sm-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
+                        Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
+                        Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip
+                        Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip</p>
+                        <i class="fas fa-external-link-alt fa-2x" style="color:#6C6CFD"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            
+            <div class="form row container" id="form" style="margin-left: auto; margin-right: auto;">
+                <h2 class="text-center" style="margin-bottom:5rem">Contactanos</h2>
+                <!-- <a><i class="fas fa-chevron-up fa-3x mb-3 text-white text-center" id="arrow3" style="cursor: pointer;"></i></a>  -->
+                <div class="d-none d-md-block col-md-6 container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true"><img src="assets/img/contactrobot.gif" alt="Escribenos" width="100%" height="auto"></div>
+                <form action="https://formspree.io/f/myylygqw" method="POST" class="col-sm-12 col-md-6 mb-5 container" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
+                    <h3 style="color: #6C6CFD">Formulario de contacto</h3>
+                    <div class="form-group">
+                        <label for="email" class="text-white my-3">Correo Electronico</label>
+                        <input type="email" name="_replyto" class="form-control" id="email" placeholder="Ingresa tu correo">
+                    </div>
+                    <div class="form-group">
+                        <label class="text-white my-3">Numero de Telefono</label>
+                        <input type="number" name="phoneNumber" class="form-control" id="phoneNumber" placeholder="Ingresa tu numero de contacto">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="comment" class="text-white my-3">Comentarios:</label>
+                        <textarea class="form-control" id="comment" rows="3" name="message" placeholder="Ingresa tu consulta..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-outline-primary btn-lg btn-block my-4 rounded-pill">Enviar formulario</button>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+            
+            <footer class="container-fluid py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6 ">
+                            <div class="logo-part">
+                                <h1 style="font-size:2rem; color:white;">The coding bros</h1>
+                                <p>7637 Laurel Dr. King Of Prussia, PA 19406</p>
+                                <p>Use this tool as test data for an automated system or find your next pen</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 px-4">
+                                <h6> About Company</h6>
+                                <p>But horizontal lines can only be a full pixel high.</p>
+                                <a href="#" class="btn-footer"> More Info </a><br>
+                                <a href="#" class="btn-footer"> Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6 px-4">
+                                <h6> Help us</h6>
+                                <div class="row ">
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li> <a href="#"> Home</a> </li>
+                                            <li> <a href="#"> About</a> </li>
+                                            <li> <a href="#"> Service</a> </li>
+                                            <li> <a href="#"> Team</a> </li>
+                                            <li> <a href="#"> Help</a> </li>
+                                            <li> <a href="#"> Contact</a> </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 px-4">
+                                    <ul>
+                                        <li> <a href="#"> Cab Faciliy</a> </li>
+                                        <li> <a href="#"> Fax</a> </li>
+                                        <li> <a href="#"> Terms</a> </li>
+                                        <li> <a href="#"> Policy</a> </li>
+                                        <li> <a href="#"> Refunds</a> </li>
+                                        <li> <a href="#"> Paypal</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                <h6> Newsletter</h6>
+                                <div class="social">
+                                    <a href="#"><i class="fab fa-facebook fa-5x text-white mx-2"></i></i></a>
+                                    <a href="#"><i class="fab fa-instagram fa-5x text-white mx-2 " aria-hidden="true"></i></a>
+                                </div>
+                                <form class="form-footer my-3">
+                                    <input type="text"  placeholder="search here...." name="search">
+                                <input type="button" value="Go" >
+                                </form>
+                                <p>That's technology limitation of LCD monitors</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
     
     
 
